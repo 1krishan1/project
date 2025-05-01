@@ -1,0 +1,499 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 18px
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-color:rgba(0, 0, 0, 0.416) */
+}
+
+.header div {
+    font-weight: bold;
+    /* text-transform: uppercase; */
+ /* color: white;
+    font-family: roboto*/; }
+
+.menu a {
+    color: white;
+    padding: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* a:active{
+    background-color: yellow;
+    color: green;
+}
+a:link{
+color: turquoise;
+}
+a:hover{
+    color: green;
+}
+a:visited{
+    color: deeppink;
+}
+ */
+.menu {
+    position: relative;
+    margin-top: 10px;
+}
+
+header {
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    height: 580px;
+     background-color: rgba(0, 0, 0, 0.1);
+     background-blend-mode: multiply; 
+}
+
+.bannertext {
+    /* padding-left: 140px; */
+    padding-top: 91px;
+    text-align: center;
+}
+
+.bannertext1 {
+    font-family: "Bebas Neue"Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.829);
+    font-size: 100px
+    /* text-transform: uppercase; */
+}
+
+.bannertext2 {
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:rgba(81, 79, 79, 0.733);
+    font-style: italic;
+    padding-top: 90px;
+}
+.color{
+    color: rgba(255, 0, 0, 0.611);
+}
+
+.navigation2 {
+    background-color: rgba(81, 79, 79, 0.733);
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+.menu2 a {
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.menu2 {
+    position: relative;
+    margin-top: 10px;
+    
+}
+
+.menu2 a:hover{
+    color: white;
+}
+
+.menu2 a:active{
+    background-color: black;
+}
+
+.ladies,.men,.kids{
+    display: flex;
+       margin-top: 2px;
+    column-gap: 2px;
+}
+
+.text0{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.printtext{
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.printtext a{
+    text-decoration: none;
+    color: black;
+}
+.printtext2{
+    font-style: bold;
+    font-weight: bolder;
+    /* padding: 0; */
+    margin: 0;
+}
+.button{
+background-color: #000;
+padding: 20px;
+width: 550;
+align-content: center;
+margin-top: 30px;
+margin-left: 400px;
+margin-bottom: 30px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+#head1 {
+    font-family: roboto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bannerlogo {
+    padding-top: 15px;
+    padding-left: 140px;
+}
+
+.icon div {
+    text-align: center;
+}
+
+.icon {
+    padding-top: 60px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    padding: 0;
+    padding-top: 45px;
+}
+
+.divider {
+    border-right: 1px lightgrey solid;
+    height: 70%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.imagegallery {
+    display: flex;
+    column-gap: 8px;
+    padding-top: 70px;
+    padding-left: 130px;
+}
+
+.bluearea {
+    background-color: #0d0d0db3;
+    height: 400px;
+    margin-top: -270px;
+}
+
+.blueimage {
+    padding-right: 250px;
+    padding-top: 100px;
+}
+
+.bluetext1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.bluetext2 {
+    color: white;
+}
+
+.bluetext {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.detailingtext h2 {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 40px;
+    font-family: "Bebas Neue", Sans-serif;
+}
+
+.detailingtext {
+    padding-left: 835px;
+    padding-top: 125px;
+}
+
+.detailingtext p {
+    font-size: 16px;
+    font-family: "Roboto", Sans-serif;
+}
+
+.bluecolor {
+    color: #7961E8;
+    padding: 10px;
+    ;
+}
+
+.listedtext {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#contacttext {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #000000;
+    padding: 15px 25px 15px 25px;
+}
+
+#contactdiv {
+    padding-top: 30px;
+}
+
+.bg3text {
+    text-align: left;
+    padding-top: 300px;
+    margin-left: 150px;
+    margin-left: 150px;
+}
+
+.bg3text h3 {
+    color: #000000;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.bg3text h6 {
+    color: #000000;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.banner3text3 {
+    padding-left: 20px;
+}
+
+.bg4text {
+    padding-top: 160px;
+    padding-left: 100px;
+    align-content: center;
+    align-items: center;
+}
+
+.bg4text h3 {
+    color: #060606;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.bg4text h6 {
+    color: #000000;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.banner4text4 {
+    padding-left: 20px;
+}
+
+#phase5text {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#phase5text h2 {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.imagegallery2 {
+    display: flex;
+    column-gap: 10px;
+    padding-left: 130px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.imagegallery2 h3 {
+    text-align: center;
+    color: #140748;
+    text-transform: uppercase;
+}
+
+.textbg {
+    text-transform: uppercase;
+    color: #140748;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 10px 10px;
+
+}
+
+.container2 {
+    padding-top: 10px;
+}
+.bg5 {
+    background-image: url("../images/bg2.png");
+    background-size: cover;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.168);
+    background-blend-mode: multiply; 
+}
+.banner img{
+width: 60px;
+height: 60px;
+object-fit: cover;
+max-width: none;
+}
+.bannerbg{
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+.banner{
+    display: flex;
+}
+.circle{
+    border-radius: 100%;
+}
+.shadow{
+    display: flex;
+    padding-left: 250px;
+    column-gap: 25px;
+    margin-top: -100;
+    font-family: "Roboto";
+}
+.shadowtext{
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.4);
+    padding: 30;
+    background-color: white;
+    font-size:12
+}
+.john{
+    font-weight: bolder;
+}
+.shadowtext2{
+     color: grey;
+     
+}
+/* .ipsum2{
+    display: flex;
+    padding-left:250px;
+    margin-top: 30px;
+} */
+.contact {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+  }
+  
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 60px;
+    background: #fff;
+    color: #140748;
+  }
+  
+  .contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000033;
+  }
+  
+  .contact-info p {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-form form {
+    background: #fff;
+    padding: 30px;
+   
+    width: 80%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+   margin-left: -260px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    
+  }
+  
+  .contact-form button {
+    padding: 12px 20px;
+    background: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+    padding-left: -150px;
+  }
+  
+  .contact-form button:hover {
+    background: #000;
+  }
+.ref{
+    color: #000;
+    text-decoration: none;
+}
+#img1,#img2{
+    padding-top: 50px;
+}
+#sustaingallery{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.textsus{
+    text-transform: uppercase;
+}
+.xyz{
+    display: flex;
+    column-gap: 20px;
+}
+.abc{
+    display: flex;
+    column-gap: 20px;
+}
+.textsus2{
+    padding-top: 170px;
+    font-size: large;
+    font-stretch: expanded;
+}
+.textsus3{
+    padding-top: 110px;
+}
